@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "wjo-alz-mg"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "wjo-platform-identity-mg"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "wjo-platform-identity-mg"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "wjo-platform-management-mg"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "wjo-platform-connectivity-mg"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "wjo-landingzones-mg"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -41,7 +41,7 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "wjo-amba-monitoring-001"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
@@ -49,44 +49,29 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "west europe"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "wj-olivier@outlook.com"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
         },
-        "ResHlthUnhealthyPolicyEffect": {
-          "value": "deployIfNotExists"
-        },
         "SvcHlthAdvisoryAlertState": {
           "value": "true"
-        },
-        "serviceHealthAdvisoryPolicyEffect": {
-          "value": "deployIfNotExists"
         },
         "SvcHlthIncidentAlertState": {
           "value": "true"
         },
-        "serviceHealthIncidentPolicyEffect": {
-          "value": "deployIfNotExists"
-        },
         "SvcHlthMaintenanceAlertState": {
           "value": "true"
         },
-        "serviceHealthMaintenancePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
         "svcHlthSecAdvisoryAlertState": {
           "value": "true"
-        },
-        "serviceHealthSecurityPolicyEffect": {
-          "value": "deployIfNotExists"
         }
       }
     },
